@@ -1,0 +1,29 @@
+{
+  "name": "Adopt-Me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pkg.json": "^2.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannaohandrews/Adopt-Me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannaohandrews/Adopt-Me/issues"
+  },
+  "homepage": "https://github.com/hannaohandrews/Adopt-Me#readme"
+}
