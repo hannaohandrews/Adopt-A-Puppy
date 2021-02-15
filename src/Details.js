@@ -9,7 +9,7 @@ class Details extends React.Component {
   //   };
   // }
 
-  state = { loading: true };
+  state = { loading: true, name: "" };
 
   componentDidMount() {
     pet
