@@ -5,12 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "@frontendmasters/pet": "^1.0.3",
+    "@reach/router": "^1.3.4",
     "pkg.json": "^2.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
@@ -24,7 +26,8 @@
     "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -36,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/hannaohandrews/Adopt-Me/issues"
   },
-  "homepage": "https://github.com/hannaohandrews/Adopt-Me#readme"
+  "homepage": "https://github.com/hannaohandrews/Adopt-Me#readme",
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
