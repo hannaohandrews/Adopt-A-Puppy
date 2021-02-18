@@ -9,6 +9,7 @@ const Modal = ({ children }) => {
   }
 
   // componentWillUnmount
+  // [] will make it run only run once
   useEffect(() => {
     const modalRoot = document.getElementById("modal");
     modalRoot.appendChild(elRef.current);

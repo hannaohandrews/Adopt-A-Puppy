@@ -6,13 +6,6 @@ import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
 import ThemeContext from "./ThemeContext";
 class Details extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     loading: true,
-  //   };
-  // }
-
   state = { loading: true, name: "" };
 
   componentDidMount() {
@@ -76,7 +69,7 @@ class Details extends React.Component {
                 <h1>would you like to adopt{name}?</h1>
                 <div className="buttons">
                   <button onClick={this.adopt}>Yes!</button>
-                  <button onClick={this.toggleModal}>Not Yet </button>
+                  <button onClick={this.toggleModal}>Sadly,no </button>
                 </div>
               </div>
             </Modal>
